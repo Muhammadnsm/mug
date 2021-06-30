@@ -1,0 +1,41 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 8, 0, 0.781);
+    animation-name: bounceIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+}
+section.wrapper{
+    background-color: rgb(255, 255, 255);
+    height:110vh ;
+}
+section.wrapper img{
+    padding-left: 320px;
+}
+section.wrapper h1{
+       text-align: center;
+      padding-top: 20px;
+      font-size: 45px;
+}
+section.wrapper p{
+    padding-left: 100px;
+}
+section.wrapper p a{
+    color: blue;
+}
+@keyframes bounceIn{
+    0% {
+                transform: scale(0.1);
+                opacity: 0;
+    }
+    60 %{
+                transform: scale(1.2);
+                opacity: 0;
+    }
+    100%{
+                transform: scale(1);
+    }
+}
